@@ -11,6 +11,6 @@ insert into Employee (Id, Salary)values ('3', '300');
 
 -- Решение задания 2
 select distinct salary as SecondHighestSalary
-from employee e
+from employee
 order by salary desc
 limit 1 offset 1;
